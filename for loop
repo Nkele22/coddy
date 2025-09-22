@@ -1,0 +1,16 @@
+number = 10
+count_even = 0
+
+for number in range (10, 51):
+  number % 2 == 0
+  if number % 2 == 0:
+    count_even += 1
+
+print(f"count_even = {count_even}")
+
+
+number = float(input())
+# Write your code below
+while number >= 2.5:
+    number /= 3
+print(number)
