@@ -1,0 +1,19 @@
+def sum_numbers():
+    total = sum(range(1, 10001))
+    print(total)
+
+n = int(input())
+
+for i in range(n):
+    sum_numbers()
+
+Calculate the area of a rectangle
+
+def calculate_area(length, width):
+    area = length * width
+    print(area)
+
+length = float(input())
+width = float(input())
+# Call the function below
+calculate_area(length, width)

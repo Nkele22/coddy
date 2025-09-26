@@ -1,8 +1,0 @@
-def sum_numbers():
-    total = sum(range(1, 10001))
-    print(total)
-
-n = int(input())
-
-for i in range(n):
-    sum_numbers()
