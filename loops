@@ -1,0 +1,15 @@
+number1 = int(input())
+number2 = int(input())
+
+numbers = list(range(number1, number2))
+
+for number in numbers:
+    number % 2 == 0
+    if number % 2 == 0 and number > 15:
+        print(f"First even number greater than 15: {number}")
+        break
+for number in numbers:
+    number % 7 == 0
+    if number % 7 == 0:
+        print(f"First number divisible by 7: {number}")
+        break
